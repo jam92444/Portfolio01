@@ -1,11 +1,9 @@
 import React from "react";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { FaBootstrap, FaCss3Alt, FaJsSquare, FaNodeJs } from "react-icons/fa";
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { SiChakraui, SiMongodb } from "react-icons/si";
 import { motion } from "framer-motion";
+import { TbBrandVite } from "react-icons/tb";
 
 const iconsVariant = (duration) => ({
   initial: { y: -10 },
@@ -50,7 +48,7 @@ const Technologies = () => {
           variants={iconsVariant(3)}
           className="py-4"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <FaJsSquare  className="text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -58,7 +56,7 @@ const Technologies = () => {
           variants={iconsVariant(5)}
           className="py-4"
         >
-          <SiMongodb className="text-7xl text-cyan-500" />
+          <SiChakraui className="text-7xl text-cyan-500" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -66,7 +64,7 @@ const Technologies = () => {
           variants={iconsVariant(2)}
           className="py-4"
         >
-          <DiRedis className="text-7xl text-red-700" /> 
+          <FaBootstrap className="text-7xl text-purple-600" /> 
         </motion.div>
         <motion.div
           initial="initial"
@@ -74,7 +72,7 @@ const Technologies = () => {
           variants={iconsVariant(6)}
           className="py-4"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <TbBrandVite   className="text-7xl text-blue-700" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -82,7 +80,7 @@ const Technologies = () => {
           variants={iconsVariant(4)}
           className="py-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <RiTailwindCssFill  className="text-7xl text-sky-300" />
         </motion.div>
       </motion.div>
     </div>
