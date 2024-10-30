@@ -1,6 +1,7 @@
 import React from "react";
 import { CURRENT_PROJECTS, PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { FaLink } from "react-icons/fa";
 
 const Projects = () => {
   return (
