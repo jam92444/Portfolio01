@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import project5 from "../assets/projects/CProject1.webp";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable web applications. I have honed my skills in like  React ,Java Script, Bootstrap, . My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -68,9 +69,21 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
+export const CURRENT_PROJECTS = [
+  {
+    title: "Car Market App",
+    image: project5,
+    description:
+      "An application for Car Rental,Sale and Shopping , with features such as task Rent Cars,Sell Cars,and Contact Support.",
+    technologies: ["React", "Tailwind", "Shadcn", "Clerk","Framer-motion"],
+  },
+
+];
 
 export const CONTACT = {
   address: "South Ukkadam, Coimbatore",
   phoneNo: "+91 88255 12668",
   email: "mdyusufwork@example.com",
 };
+
+
