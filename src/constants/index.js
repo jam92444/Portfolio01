@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.webp";
+import project1 from "../assets/projects/chatbi.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
@@ -41,11 +41,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real-Time Chat Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional Real-Time Chat Website with features like Send Message,Send Images,View Last seen , Check weather user Online Or Offline and user authentication.",
+    technologies: ["HTML", "CSS", "React", "FireBase", "MongoDB"],
+    deployUrl : 'https://chatbi.vercel.app/'
   },
   {
     title: "Task Management App",
