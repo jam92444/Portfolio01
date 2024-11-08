@@ -99,7 +99,7 @@ const Projects = () => {
                 {project.deployUrl && <p className="mb-4 text-stone-400 flex items-center gap-2">
                   {" "}
                   <FaLink />
-                  <a href={project?.deployUrl} target="_blank" rel="noreferrer">Live Demo Soon</a>
+                  <a href={project?.deployUrl} target="_blank" rel="noreferrer">Live Demo Here</a>
                 </p>}
                 {project.technologies.map((tech, index) => (
                   <span
