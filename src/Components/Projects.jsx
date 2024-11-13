@@ -103,7 +103,7 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
-                <p className="mt-4 mb-4 text-stone-400 flex items-center gap-2">
+                <p className="mt-4 mb-4 text-stone-400 flex flex-wrap items-center gap-2">
                   {" "}
                   <FaLink />
                   <a href={project?.demo}>Live Demo Soon</a>
