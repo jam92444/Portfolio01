@@ -1,7 +1,11 @@
 import React from "react";
-import { FaBootstrap, FaCss3Alt, FaJsSquare, FaNodeJs } from "react-icons/fa";
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { SiChakraui, SiMongodb } from "react-icons/si";
+import { FaBootstrap, FaJsSquare } from "react-icons/fa";
+import {
+  RiFirebaseFill,
+  RiReactjsLine,
+  RiTailwindCssFill,
+} from "react-icons/ri";
+import { SiChakraui } from "react-icons/si";
 import { motion } from "framer-motion";
 import { TbBrandVite } from "react-icons/tb";
 
@@ -48,7 +52,7 @@ const Technologies = () => {
           variants={iconsVariant(3)}
           className="py-4"
         >
-          <FaJsSquare  className="text-7xl text-yellow-400" />
+          <FaJsSquare className="text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -64,7 +68,7 @@ const Technologies = () => {
           variants={iconsVariant(2)}
           className="py-4"
         >
-          <FaBootstrap className="text-7xl text-purple-600" /> 
+          <FaBootstrap className="text-7xl text-purple-600" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -72,7 +76,15 @@ const Technologies = () => {
           variants={iconsVariant(6)}
           className="py-4"
         >
-          <TbBrandVite   className="text-7xl text-blue-700" />
+          <TbBrandVite className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconsVariant(6)}
+          className="py-4"
+        >
+          <RiFirebaseFill className="text-7xl text-red-700" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -80,7 +92,7 @@ const Technologies = () => {
           variants={iconsVariant(4)}
           className="py-4"
         >
-          <RiTailwindCssFill  className="text-7xl text-sky-300" />
+          <RiTailwindCssFill className="text-7xl text-sky-300" />
         </motion.div>
       </motion.div>
     </div>

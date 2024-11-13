@@ -2,10 +2,13 @@ import React from "react";
 import { CURRENT_PROJECTS, PROJECTS } from "../constants";
 import { FaLink } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { FaLink } from "react-icons/fa";
 
 const Projects = () => {
   return (
     <div>
+
+      {/* current projects  */}
       <div className="pb-4">
         <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
@@ -39,8 +42,12 @@ const Projects = () => {
                 className="w-full max-w-xl lg:w-3/4"
               >
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
-                <p >{project.description}</p>
-                <p className="mb-4 text-stone-400 flex items-center gap-2"> <FaLink /><a href="/">Live Demo Soon</a></p>
+                <p>{project.description}</p>
+                <p className="mb-4 text-stone-400 flex items-center gap-2">
+                  {" "}
+                  <FaLink />
+                  <a href="/">Live Demo Soon</a>
+                </p>
                 {project.technologies.map((tech, index) => (
                   <span
                     className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
@@ -54,6 +61,8 @@ const Projects = () => {
           ))}
         </div>
       </div>
+
+      {/* Projects  */}
       <div className="pb-4">
         <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +97,6 @@ const Projects = () => {
               >
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
                 <p className="mb-4 text-stone-400">{project.description}</p>
-                <p className="mb-4 text-stone-400 flex items-center gap-2"> <FaLink /><a href={project?.demo}>Live Demo</a></p>
                 {project.technologies.map((tech, index) => (
                   <span
                     className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"

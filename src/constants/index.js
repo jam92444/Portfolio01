@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.webp";
+import project1 from "../assets/projects/chatbi.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
@@ -46,15 +46,23 @@ export const PROJECTS = [
     description:
       "A real-time chat application built with React.js and Firebase for seamless communication, instant messaging, and efficient data syncing.",
     technologies: ["HTML", "CSS", "React", "Firebase", "Tailwind CSS"],
-    demo:"https://chatbi.vercel.app/"
+    demo: "https://chatbi.vercel.app/",
+  },
+  {
+    title: "Real-Time Chat Website",
+    image: project1,
+    description:
+      "A fully functional Real-Time Chat Website with features like Send Message,Send Images,View Last seen , Check weather user Online Or Offline and user authentication.",
+    technologies: ["HTML", "CSS", "React", "FireBase", "MongoDB"],
+    deployUrl: "https://chatbi.vercel.app/",
   },
   {
     title: "STYL.myj - Ecommerce Site",
     image: project2,
     description:
       "Build your online store with React JS for fast, responsive, and dynamic e-commerce experiences. Seamless shopping, easy integration.",
-    technologies: ["HTML", "CSS", "ReactJs", "Tailwind","MongoDB"],
-    demo:'https://styl-myj.vercel.app/'
+    technologies: ["HTML", "CSS", "ReactJs", "Tailwind", "MongoDB"],
+    demo: "https://styl-myj.vercel.app/",
   },
   {
     title: "Portfolio Website",
@@ -77,9 +85,8 @@ export const CURRENT_PROJECTS = [
     image: project5,
     description:
       "An application for Car Rental,Sale and Shopping , with features such as task Rent Cars,Sell Cars,and Contact Support.",
-    technologies: ["React", "Tailwind", "Shadcn", "Clerk","Framer-motion"],
+    technologies: ["React", "Tailwind", "Shadcn", "Clerk", "Framer-motion"],
   },
-
 ];
 
 export const CONTACT = {
@@ -87,5 +94,3 @@ export const CONTACT = {
   phoneNo: "+91 88255 12668",
   email: "mdyusufwork@example.com",
 };
-
-
