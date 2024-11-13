@@ -2,12 +2,10 @@ import React from "react";
 import { CURRENT_PROJECTS, PROJECTS } from "../constants";
 import { FaLink } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { FaLink } from "react-icons/fa";
 
 const Projects = () => {
   return (
     <div>
-
       {/* current projects  */}
       <div className="pb-4">
         <motion.h2
@@ -105,6 +103,11 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
+                <p className="mb-4 text-stone-400 flex items-center gap-2">
+                  {" "}
+                  <FaLink />
+                  <a href={project?.demo}>Live Demo Soon</a>
+                </p>
               </motion.div>
             </div>
           ))}

@@ -49,14 +49,6 @@ export const PROJECTS = [
     demo: "https://chatbi.vercel.app/",
   },
   {
-    title: "Real-Time Chat Website",
-    image: project1,
-    description:
-      "A fully functional Real-Time Chat Website with features like Send Message,Send Images,View Last seen , Check weather user Online Or Offline and user authentication.",
-    technologies: ["HTML", "CSS", "React", "FireBase", "MongoDB"],
-    deployUrl: "https://chatbi.vercel.app/",
-  },
-  {
     title: "STYL.myj - Ecommerce Site",
     image: project2,
     description:
