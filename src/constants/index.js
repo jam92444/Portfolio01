@@ -41,18 +41,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "ChatBi - RealTime Chat Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A real-time chat application built with React.js and Firebase for seamless communication, instant messaging, and efficient data syncing.",
+    technologies: ["HTML", "CSS", "React", "Firebase", "Tailwind CSS"],
+    demo:"https://chatbi.vercel.app/"
   },
   {
-    title: "Task Management App",
+    title: "STYL.myj - Ecommerce Site",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Build your online store with React JS for fast, responsive, and dynamic e-commerce experiences. Seamless shopping, easy integration.",
+    technologies: ["HTML", "CSS", "ReactJs", "Tailwind","MongoDB"],
+    demo:'https://styl-myj.vercel.app/'
   },
   {
     title: "Portfolio Website",
