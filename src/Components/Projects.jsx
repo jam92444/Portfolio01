@@ -44,7 +44,9 @@ const Projects = () => {
                 <p className="mb-4 text-stone-400 flex items-center gap-2">
                   {" "}
                   <FaLink />
-                  <a href="/">Live Demo Soon</a>
+                  <a target="_blank" rel="noopener noreferrer" href="/">
+                    Live Demo Soon
+                  </a>
                 </p>
                 {project.technologies.map((tech, index) => (
                   <span
