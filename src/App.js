@@ -3,7 +3,6 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Technologies from "./Components/Technologies";
 import Projects from "./Components/Projects";
-import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
 
 const App = () => {
