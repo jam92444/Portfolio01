@@ -31,7 +31,7 @@ const Contact = () => {
           {CONTACT.phoneNo}
         </motion.p>
         <a
-          href="mailto:jamaltwo.3121@.com"
+          href="mailto:mdyusufwork@gmail.com"
           target="_blank"
           rel="noreferrer"
           aria-label="mail"

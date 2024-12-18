@@ -85,5 +85,5 @@ export const CURRENT_PROJECTS = [
 export const CONTACT = {
   address: "South Ukkadam, Coimbatore",
   phoneNo: "+91 88255 12668",
-  email: "mdyusufwork@example.com",
+  email: "mdyusufwork@gmail.com",
 };
