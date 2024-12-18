@@ -36,8 +36,8 @@ const Navbar = () => {
 
             <a href="https://api.whatsapp.com/send/?phone=918825512668&text&type=phone_number&app_absent=0"
             target='_blank'
-            rel="noreferrer"
-            aria-label='Twitter'
+            rel='noopener'
+            aria-label='whatapp'
             >
                 <FaWhatsapp/>
             </a>

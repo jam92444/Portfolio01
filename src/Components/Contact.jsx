@@ -22,18 +22,19 @@ const Contact = () => {
         >
           {CONTACT.address}
         </motion.p>
-        <motion.p
+        <motion.a
+          href="tel:8825512668"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
           className="my-4"
         >
           {CONTACT.phoneNo}
-        </motion.p>
+        </motion.a> <br />
         <a
           href="mailto:mdyusufwork@gmail.com"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener"
           aria-label="mail"
           className="border-b"
         >
