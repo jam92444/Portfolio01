@@ -43,7 +43,7 @@ const Experience = () => {
                   onClick={()=>openInNewTab(experience.image)}
                   height={250}
                   className="mb-6 rounded pl-3 cursor-pointer"
-                />
+                  alt={experience.company}                />
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
