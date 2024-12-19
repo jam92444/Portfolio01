@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 import project5 from "../assets/projects/CProject1.webp";
+import certificate01 from "../assets/cert_1.png"
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable web applications. I have honed my skills in like  React ,Java Script, Bootstrap, . My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -10,33 +11,14 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Front-end developer wi
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    image: certificate01,
+    year: "16 Dec 2024",
+    role: "Software Engineering Job Simulation",
+    company: "Accenture.",
+    description: `This immersive program has enhancing my problem-solving skills and preparing me for real-world challenges in the software engineering field. I'm grateful for the opportunity to learn from industry experts and to grow as a professional.`,
+    technologies: ["Cloud Architecture", "Security", "Programming", "Testing","Aglie"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+
 ];
 
 export const PROJECTS = [

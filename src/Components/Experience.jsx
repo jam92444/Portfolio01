@@ -3,6 +3,21 @@ import { EXPERIENCES } from "../constants";
 import {motion} from 'framer-motion';
 
 const Experience = () => {
+  const openInNewTab = (image) => {
+    const imageSrc = image;
+    const newWindow = window.open(imageSrc, '_blank', 'fullscreen=yes, toolbar=no, location=no, menubar=no, resizable=yes, scrollbars=yes');
+    
+    if (newWindow) {
+      // Move the new window to the top-left corner
+      newWindow.moveTo(0, 0);  
+
+      // Resize the new window to fit the screen using window.screen
+      newWindow.resizeTo(window.screen.width, window.screen.height);
+    } else {
+      // If the window wasn't opened (e.g., pop-up was blocked), log an error
+      console.error('Failed to open new window. Pop-up may be blocked.');
+    }
+  };
   return (
     <div className="pb-4">
       <motion.h2
@@ -11,7 +26,7 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience
+        Certifications
       </motion.h2>
       <div>
         {EXPERIENCES.map((experience, index) => (
@@ -22,7 +37,13 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2 text sm text-stone-400">{experience.year}</p>
+               <img
+                  src={experience.image}
+                  width={250}
+                  onClick={()=>openInNewTab(experience.image)}
+                  height={250}
+                  className="mb-6 rounded pl-3 cursor-pointer"
+                />
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -34,6 +55,7 @@ const Experience = () => {
               <span className="text-sm text-stone-500">
                 {experience.company}
               </span>
+              <p className="mb-2 text sm text-stone-400">{experience.year}</p>
               <p className="mb-4 text-stone-400">{experience.description}</p>
               {experience.technologies.map((tech, index) => (
                 <span
