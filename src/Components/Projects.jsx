@@ -108,7 +108,7 @@ const Projects = () => {
                 <p className="mt-4 mb-4 text-stone-400 flex flex-wrap items-center gap-2">
                   {" "}
                   <FaLink />
-                  <a href={project?.demo}>Live Demo</a>
+                  <a href={project?.demo} target="_blank">Live Demo</a>
                 </p>
               </motion.div>
             </div>
