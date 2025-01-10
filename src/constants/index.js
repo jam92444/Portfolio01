@@ -47,11 +47,12 @@ export const PROJECTS = [
     demo:'https://mohamedyusufjamalportfolio.vercel.app/'
   },
   {
-    title: "Blogging Platform",
+    title: "Doctor Appointment Booking App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and managing doctor's Appointments, with core features like booking, Payment, Admin Panel, Doctor Panel and user Interface.",
+    technologies: ["React Js", "Tailwind CSS", "Express JS","MongoDB","RazorPay"],
+    demo:'https://www.linkedin.com/posts/yusuf-jamal-106772293_fullstackproject-developers-mernstack-activity-7283482847250685953-9ODB?utm_source=share&utm_medium=member_desktop',
   },
 ];
 export const CURRENT_PROJECTS = [
